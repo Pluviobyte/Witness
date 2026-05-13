@@ -1,5 +1,7 @@
 # Witness
 
+English | [中文](README_CN.md)
+
 A lightweight verification framework for autonomous system execution.
 
 When AI agents or automated pipelines operate black-box systems, neither the human operator nor the AI can directly observe what happened. **Witness** provides a structured data exit — a shared verification store that both humans and AI can query to understand what succeeded, what failed, and why.
