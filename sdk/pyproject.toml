@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "verification-ledger"
+version = "0.1.0"
+description = "Lightweight verification store for autonomous system execution results"
+requires-python = ">=3.9"
+dependencies = ["psycopg2-binary>=2.9"]
+
+[project.optional-dependencies]
+api = ["fastapi>=0.110", "uvicorn>=0.29"]
